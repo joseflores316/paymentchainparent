@@ -10,6 +10,11 @@
     </parent>
 
     <artifactId>businessdomain</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>customer</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
